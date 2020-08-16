@@ -106,13 +106,9 @@ word-break: keep-all;
 }
 }
 
-.container-1{
-	display :flex;
-	flex: wrap;
-	text-align: center;
-}
 
-.Eval_form 
+
+.Eval_form ,.All_buttons
 {
 display: flex;
 	border: 1px solid black;
