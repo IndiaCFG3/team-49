@@ -1,117 +1,102 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Unit Evaluation Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/form-styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<head>
-  <style>
-    table,
-    th,
-    td {
-      border: 1px solid black;
-      border-collapse: collapse;
-      text-align: center;
-    }
 
-    td {
-      padding: 5px;
-      font-size: 10px;
-    }
+  </head>
+  <body>
+    <div class="main-block">
+      <form action="/">
+        <h1 style="text-align: center" class="jumbotron text-center">Unit Evaluation Form</h1>
+        
+        <hr>
+        <form>
+  <div class="Eval_form">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">School name</label>
+    <input class="form-control" id="School_name" placeholder="">
+  </div>
 
-    input[type="number"] {
-      border: none;
-    }
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Class</label>
+    <select class="form-control" id="Class">
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Team no</label>
+    <input type="email" class="form-control" id="Team_no" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Ideas</label>
+    <select class="form-control" id="Ideas">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
 
-    input[type="text"] {
-      border: none;
-      width: 90%;
-    }
-  </style>
-</head>
 
-<body>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Plan </label>
+    <select class="form-control" id="Plan">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
 
-  <table style="width:100%;">
-    <tr>
-      <th colspan="2" width="5%">Info</th>
-      <th colspan="4" width="25%">Ideas</th>
-      <th colspan="3" width="20%">Plan<span>(Drawing Plan)</span></th>
-      <th colspan="3" width="12%">Make & Test</th>
-      <th colspan="3" width="12%">Presentation</th>
-      <th colspan="3" width="26%">Comments</th>
-    </tr>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Make_and_Test</label>
+    <select class="form-control" id="Make_and_Test">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
 
-    <tr>
-      <td>Teams</td>
-      <td>Enable</td>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Presentation</label>
+    <select class="form-control" id="Presentation">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  
+  </div>
+ <div class="form-group">
+    <label for="exampleFormControlInput1">Comments</label>
+    <input type="email" class="form-control" id="Comments" placeholder="">
+  </div>
+</form>
+        
+      </div>
 
-      <td>Non Attempted</td>
-      <td>Attempted</td>
-      <td>Good Ideas</td>
-      <td>Showcase Ideas</td>
 
-      <td>Non Attempted</td>
-      <td>Partial</td>
-      <td>Completed</td>
-
-      <td>Non Attempted</td>
-      <td>Partial Completion</td>
-      <td>Completed</td>
-
-      <td>Non Attempted</td>
-      <td>Attempted</td>
-      <td>no. of Students Attempted</td>
-
-      <td colspan="3">Ideas To Showcase</td>
-    </tr>
-
-    <tr>
-      <td>T1</td>
-      <td><input type="checkbox" name="checkbox"></td>
-
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="number" min="0" name="number"></td>
-
-      <td colspan="3"><input type="text" name="text"></td>
-    </tr>
-
-    <tr>
-      <td>T2</td>
-      <td><input type="checkbox" name="checkbox"></td>
-
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="checkbox" name="checkbox"></td>
-      <td><input type="number" min="0" name="number"></td>
-
-      <td colspan="3"><input type="text" name="text"></td>
-    </tr>
-    
-  </table>
-</body>
-
+        <div class="btn-block">
+          <button type="submit" href="/">Send</button>
+        </div>
+        <div class="btn-block">
+          <button type="cancel" href="/">cancel</button>
+        </div>
+      </form>
+    </div>
+    </div>
+  </body>
 </html>
