@@ -105,4 +105,26 @@ th, td {
 word-break: keep-all;
 }
 }
-</style>
+
+.container-1{
+	display :flex;
+	flex: wrap;
+	text-align: center;
+}
+
+.Eval_form 
+{
+display: flex;
+	border: 1px solid black;
+	padding: 10px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+text-align: center;
+
+}
+
+.instructions
+{
+	text-align: center;
+}

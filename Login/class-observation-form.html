@@ -4,248 +4,88 @@
     <title>Course Evaluation Form</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="css/form-styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 
   </head>
   <body>
     <div class="main-block">
       <form action="/">
-        <h1 style="text-align: center">Class Observation Form</h1>
-        <h3>Rate this course using the following scale:</h3>
+        <h1 style="text-align: center" class="jumbotron text-center">Class Observation Form</h1>
+        <div class="instructions">
+        <h3 style="text-align: center">Rate this course using the following scale:</h3>
         <p>1 - Rarely meets expectations</p>
         <p>2 - Sometimes meets expectations</p>
         <p>3 - Meets expectations</p>
         <p>4 - Frequently exceeds expectations</p>
         <p>5 - Consistently exceeds expectations</p>
+      </div>
         <hr>
-        <h3 style="text-align: center "><strong>Student-Teacher-1</strong></h3>
-        <div>
-          <h4>Leadership<span class="required"></span></h4>
-          <table>
-            <tr>
-              <th class="first-col"></th>
-              <th>1</th>
-              <th>2</th>
-              <th>3</th>
-              <th>4</th>
-              <th>5</th>
-            </tr>
-            <tr>
-              <td class="first-col">Class-Presence</td>
-              <td><input type="radio" value="none" name="needs" required /></td>
-              <td><input type="radio" value="none" name="needs" required/></td>
-              <td><input type="radio" value="none" name="needs" required/></td>
-              <td><input type="radio" value="none" name="needs" required/></td>
-              <td><input type="radio" value="none" name="needs" required/></td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <th class="first-col"></th>
-              <th>1</th>
-              <th>2</th>
-              <th>3</th>
-              <th>4</th>
-              <th>5</th>
-            </tr>
-            <tr>
-              <td class="first-col">Inititative</td>
-              <td><input type="radio" value="none" name="resources" required/></td>
-              <td><input type="radio" value="none" name="resources" required/></td>
-              <td><input type="radio" value="none" name="resources" required/></td>
-              <td><input type="radio" value="none" name="resources" required/></td>
-              <td><input type="radio" value="none" name="resources" required/></td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <th class="first-col"></th>
-              <th>1</th>
-              <th>2</th>
-              <th>3</th>
-              <th>4</th>
-              <th>5</th>
-            </tr>
-            <tr>
-              <td class="first-col">Confidence</td>
-              <td><input type="radio" value="none" name="equipment" required/></td>
-              <td><input type="radio" value="none" name="equipment" required/></td>
-              <td><input type="radio" value="none" name="equipment" required/></td>
-              <td><input type="radio" value="none" name="equipment" required/></td>
-              <td><input type="radio" value="none" name="equipment" required/></td>
-            </tr>
-          </table>
-        </div>
-        <div class="comments-block">
-          <h4 class="comments">Notes</h4>
-          <div class="answer">
-            <textarea rows="5"></textarea>
-          </div>
-        </div>
-        <div>
-          <h4>Mentorship</h4>
-          <table>
-            <tr>
-              <th class="first-col"></th>
-              <th>1</th>
-              <th>2</th>
-              <th>3</th>
-              <th>4</th>
-              <th>5</th>
-            </tr>
-            <tr>
-              <td class="first-col">Preparation</td>
-              <td><input type="radio" value="none" name="knowledge" /></td>
-              <td><input type="radio" value="none" name="knowledge" /></td>
-              <td><input type="radio" value="none" name="knowledge" /></td>
-              <td><input type="radio" value="none" name="knowledge" /></td>
-              <td><input type="radio" value="none" name="knowledge" /></td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <th class="first-col"></th>
-              <th>1</th>
-              <th>2</th>
-              <th>3</th>
-              <th>4</th>
-              <th>5</th>
-            </tr>
-            <tr>
-              <td class="first-col">Helping-Teams</td>
-              <td><input type="radio" value="none" name="effectively" /></td>
-              <td><input type="radio" value="none" name="effectively" /></td>
-              <td><input type="radio" value="none" name="effectively" /></td>
-              <td><input type="radio" value="none" name="effectively" /></td>
-              <td><input type="radio" value="none" name="effectively" /></td>
-            </tr>
-          </table>
-        </div>
-        <div class="comments-block">
-          <h4 class="comments">Notes</h4>
-          <div class="answer">
-            <textarea rows="5"></textarea>
-          </div>
-        </div>
+        <form>
+  <div class="Eval_form">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Teacher Name</label>
+    <input type="email" class="form-control" id="Teacher_name" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Class Pressence</label>
+    <select class="form-control" id="Class_presence">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
 
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Initiative</label>
+    <select class="form-control" id="Initiative">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
 
-        <!-- techer -2 -->
-        <hr>
-        <h3 style="text-align: center "><strong>Student-Teacher-2</strong></h3>
-        <div>
-          <h4>Leadership<span class="required"></span></h4>
-          <table>
-            <tr>
-              <th class="first-col"></th>
-              <th>1</th>
-              <th>2</th>
-              <th>3</th>
-              <th>4</th>
-              <th>5</th>
-            </tr>
-            <tr>
-              <td class="first-col">Class-Presence</td>
-              <td><input type="radio" value="none" name="needs" required /></td>
-              <td><input type="radio" value="none" name="needs" required/></td>
-              <td><input type="radio" value="none" name="needs" required/></td>
-              <td><input type="radio" value="none" name="needs" required/></td>
-              <td><input type="radio" value="none" name="needs" required/></td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <th class="first-col"></th>
-              <th>1</th>
-              <th>2</th>
-              <th>3</th>
-              <th>4</th>
-              <th>5</th>
-            </tr>
-            <tr>
-              <td class="first-col">Inititative</td>
-              <td><input type="radio" value="none" name="resources" required/></td>
-              <td><input type="radio" value="none" name="resources" required/></td>
-              <td><input type="radio" value="none" name="resources" required/></td>
-              <td><input type="radio" value="none" name="resources" required/></td>
-              <td><input type="radio" value="none" name="resources" required/></td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <th class="first-col"></th>
-              <th>1</th>
-              <th>2</th>
-              <th>3</th>
-              <th>4</th>
-              <th>5</th>
-            </tr>
-            <tr>
-              <td class="first-col">Confidence</td>
-              <td><input type="radio" value="none" name="equipment" required/></td>
-              <td><input type="radio" value="none" name="equipment" required/></td>
-              <td><input type="radio" value="none" name="equipment" required/></td>
-              <td><input type="radio" value="none" name="equipment" required/></td>
-              <td><input type="radio" value="none" name="equipment" required/></td>
-            </tr>
-          </table>
-        </div>
-        <div class="comments-block">
-          <h4 class="comments">Notes</h4>
-          <div class="answer">
-            <textarea rows="5"></textarea>
-          </div>
-        </div>
-        <div>
-          <h4>Mentorship</h4>
-          <table>
-            <tr>
-              <th class="first-col"></th>
-              <th>1</th>
-              <th>2</th>
-              <th>3</th>
-              <th>4</th>
-              <th>5</th>
-            </tr>
-            <tr>
-              <td class="first-col">Preparation</td>
-              <td><input type="radio" value="none" name="knowledge" /></td>
-              <td><input type="radio" value="none" name="knowledge" /></td>
-              <td><input type="radio" value="none" name="knowledge" /></td>
-              <td><input type="radio" value="none" name="knowledge" /></td>
-              <td><input type="radio" value="none" name="knowledge" /></td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <th class="first-col"></th>
-              <th>1</th>
-              <th>2</th>
-              <th>3</th>
-              <th>4</th>
-              <th>5</th>
-            </tr>
-            <tr>
-              <td class="first-col">Helping-Teams</td>
-              <td><input type="radio" value="none" name="effectively" /></td>
-              <td><input type="radio" value="none" name="effectively" /></td>
-              <td><input type="radio" value="none" name="effectively" /></td>
-              <td><input type="radio" value="none" name="effectively" /></td>
-              <td><input type="radio" value="none" name="effectively" /></td>
-            </tr>
-          </table>
-        </div>
-        <div class="comments-block">
-          <h4 class="comments">Notes</h4>
-          <div class="answer">
-            <textarea rows="5"></textarea>
-          </div>
-        </div>
-        <hr>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Preparation</label>
+    <select class="form-control" id="Preparation">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Helping_teams</label>
+    <select class="form-control" id="Helping_teams">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  
+  </div>
+ <div class="form-group">
+    <label for="exampleFormControlInput1">Notes</label>
+    <input type="email" class="form-control" id="Notes" placeholder="">
+  </div>
+</form>
+        
+      </div>
 
 
         <div class="btn-block">
           <button type="submit" href="/">Send</button>
         </div>
       </form>
+    </div>
     </div>
   </body>
 </html>
