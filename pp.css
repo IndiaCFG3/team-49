@@ -1,0 +1,18 @@
+.card
+{
+	margin-bottom: 45px;
+}
+#header
+{
+	font-family: monotype corsiva;
+}
+.lead{
+	font-family: Arial;
+	font-size: 48px;
+}
+.tt{
+	font-size: 24px;
+}
+.copy-right_text{
+	background: yellow;
+}
