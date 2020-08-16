@@ -1,0 +1,13 @@
+[
+{"type":"header","version":"4.7.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"sql12360636"},
+{"type":"table","name":"CLASSOBS","database":"sql12360636","data":
+[
+{"Teacher_id":"509","Teacher_name":"Rahul","Class_presence":"4","Initiative":"2","Preparation":"3","Helping_teams":"1","Notes":"Quite Nice."},
+{"Teacher_id":"510","Teacher_name":"Priya","Class_presence":"3","Initiative":"3","Preparation":"2","Helping_teams":"3","Notes":"Great Class."},
+{"Teacher_id":"511","Teacher_name":"Gita","Class_presence":"4","Initiative":"3","Preparation":"3","Helping_teams":"2","Notes":"Disciplined"},
+{"Teacher_id":"512","Teacher_name":"Jay","Class_presence":"2","Initiative":"1","Preparation":"3","Helping_teams":"3","Notes":"Hard Working."},
+{"Teacher_id":"513","Teacher_name":"Karthik","Class_presence":"5","Initiative":"3","Preparation":"2","Helping_teams":"4","Notes":"Quiet Class."}
+]
+}
+]

@@ -1,0 +1,11 @@
+[
+{"type":"header","version":"4.7.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"sql12360636"},
+{"type":"table","name":"PIC","database":"sql12360636","data":
+[
+,
+,
+
+]
+}
+]

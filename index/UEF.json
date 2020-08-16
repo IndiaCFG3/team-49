@@ -1,0 +1,12 @@
+[
+{"type":"header","version":"4.7.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"sql12360636"},
+{"type":"table","name":"UEF","database":"sql12360636","data":
+[
+{"id":"1","School_name":"xyz","Class":"2","Team_no":"2","Ideas":"3","Plan":"2","Make_and_Test":"3","Presentation":"2","Comments":" hekjkjelkjwqlej"},
+{"id":"2","School_name":"lmnf","Class":"6","Team_no":"4","Ideas":"5","Plan":"3","Make_and_Test":"3","Presentation":"3","Comments":"reshfdjgfdcghm"},
+{"id":"3","School_name":"ghfh","Class":"9","Team_no":"5","Ideas":"5","Plan":"1","Make_and_Test":"4","Presentation":"2","Comments":"hjgsdghdsgjkdglhj"},
+{"id":"4","School_name":"ghi","Class":"5","Team_no":"6","Ideas":"3","Plan":"3","Make_and_Test":"2","Presentation":"4","Comments":"kghajhgdf"}
+]
+}
+]
